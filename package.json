@@ -1,0 +1,54 @@
+{
+  "name": "hcaptchavue3",
+  "version": "0.1.0",
+  "description": "Vue 3 hCaptcha Component",
+  "license": "MIT",
+  "author": "Jules Gilson",
+  "main": "dist/hCaptchaVue3.umd.js",
+  "module": "dist/hCaptchaVue3.esm.js",
+  "unpkg": "dist/hCaptchaVue3.min.js",
+  "browser": {
+    "./sfc": "src/hCaptchaVue3.vue"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julesgilson/hCaptchaVue3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/julesgilson/hCaptchaVue3/issues"
+  },
+  "homepage": "https://github.com/julesgilson/hCaptchaVue3#readme",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --no-clean",
+    "lint": "vue-cli-service lint --no-fix",
+    "package": "rollup --config build/rollup.config.js"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-buble": "^0.21.3",
+    "@rollup/plugin-commonjs": "^21.0.0",
+    "core-js": "^3.6.5",
+    "rollup": "^2.58.0",
+    "rollup-plugin-vue": "^6.0.0",
+    "vue": "^3.0.0",
+    "vue-template-compiler": "^2.6.14",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.0.0",
+    "node-sass": "^4.12.0",
+    "prettier": "^2.2.1",
+    "sass-loader": "^8.0.2"
+  },
+  "files": [
+    "dist, readme.md, LICENSE"
+  ]
+}
