@@ -162,7 +162,7 @@ Upon receiving the response from the server endpoint, the `serverResponse` event
 
 | Event            | Payload                                            | Trigger                             |
 | ---------------- | -------------------------------------------------- | ----------------------------------- |
-| `serverResponse` | `Object: {status: Int | String, Response: Object}` | Validation endpoint fetch completed |
+| `serverResponse` | `Object: {status: Int \| String, Response: Object}` | Validation endpoint fetch completed |
 
 - `status` - If there was an error during Fetch this will be the string "error". Otherwise it will be the `status` property of the response object. Generally if the validation endpoint returns status 200 on success, this is all that needs to be checked
 - `Response` - This will be the complete response object, as returned from the endpoint
