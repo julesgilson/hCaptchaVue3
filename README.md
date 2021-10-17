@@ -94,7 +94,7 @@ Other than the `verified` and `serverResponse` events, the events are emitted by
 |`challengeExpired`|`"chalexpired":String`|See "data-chalexpired-callback" in [hCaptcha docs](https://docs.hcaptcha.com/configuration#hcaptcha-container-configuration)|
 |`opened`|`"opened":String`|See "data-open-callback" in [hCaptcha docs](https://docs.hcaptcha.com/configuration#hcaptcha-container-configuration)|
 |`closed`|`"closed":String`|See "data-close-callback" in [hCaptcha docs](https://docs.hcaptcha.com/configuration#hcaptcha-container-configuration)|
-| `serverResponse`   | `Object: {status: Int | String, Response: Object}` | Validation endpoint fetch completed                    |
+| `serverResponse`   | `Object: {status: Int \| String, Response: Object}` | Validation endpoint fetch completed                    |
 
 
 
